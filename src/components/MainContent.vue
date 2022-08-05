@@ -23,7 +23,7 @@
                   <div class="pagination">{{ block.id }}/6</div>
                 </div>
               <div class="main-block__image">
-                <img :src="'/block-image/' + block.src" alt="">
+                <img :src="block.src" alt="">
               </div>
             </div>
           </Transition>
