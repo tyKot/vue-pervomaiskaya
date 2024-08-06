@@ -5,7 +5,7 @@
         <ul class="nav">
           <li class="nav__item"><a class="nav__link" :class="{active:isActive==1}" @click="isActive=1">Архитектура</a></li>
           <li class="nav__item"><a class="nav__link" :class="{active:isActive==2}" @click="isActive=2">Благоустройство</a></li>
-          <li class="nav__item"><a class="nav__link" :class="{active:isActive==3}" @click="isActive=3">Безопастность</a></li>
+          <li class="nav__item"><a class="nav__link" :class="{active:isActive==3}" @click="isActive=3">Безопасность</a></li>
           <li class="nav__item"><a class="nav__link" :class="{active:isActive==4}" @click="isActive=4">Инженерия</a></li>
           <li class="nav__item"><a class="nav__link" :class="{active:isActive==5}" @click="isActive=5">Инфраструктура</a></li>
           <li class="nav__item"><a class="nav__link" :class="{active:isActive==6}" @click="isActive=6">Транспортная доступность</a></li>
